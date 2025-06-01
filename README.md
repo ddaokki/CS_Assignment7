@@ -31,7 +31,7 @@ Matches HW6-Q3 shading output
 HW6 CPU Result	HW7 GPU Result
 
 📁 File Structure
-vbnet
+
 ├── main_Phong_Shader.cpp
 ├── Phong.vert
 ├── Phong.frag
