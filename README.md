@@ -23,26 +23,6 @@ GLEW	OpenGL extension loading
 GLFW	Context & window management
 GLM	Matrix and vector math
 
-
-🖼️ Output
-Result: smooth green Phong-shaded sphere with correct specular highlights and depth
-Matches HW6-Q3 shading output
-
-HW6 CPU Result	HW7 GPU Result
-
-📁 File Structure
-
-├── main_Phong_Shader.cpp
-├── Phong.vert
-├── Phong.frag
-├── hw7_output.png
-├── include/
-│   └── glm/, glew/, glfw/
-└── lib/
-    └── glew32.lib, glfw3.lib, opengl32.lib
-📌 Notes
-Shader constants (lighting, material) are set in main.cpp and passed as uniforms.
-
 No deprecated glBegin/glVertex or fixed-function lighting used.
 
 Final image resolution: 512×512
